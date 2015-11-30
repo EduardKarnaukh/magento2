@@ -1,1 +1,1 @@
-/usr/share/nginx/html/vendor/magento/module-captcha/view/frontend/web/js/model/captchaList.js
+/Applications/MAMP/htdocs/magento2.loc/vendor/magento/module-captcha/view/frontend/web/js/model/captchaList.js

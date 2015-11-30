@@ -1,1 +1,1 @@
-/usr/share/nginx/html/vendor/magento/module-catalog/view/frontend/web/js/view/image.js
+/Applications/MAMP/htdocs/magento2.loc/vendor/magento/module-catalog/view/frontend/web/js/view/image.js

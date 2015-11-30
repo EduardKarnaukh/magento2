@@ -1,1 +1,1 @@
-/usr/share/nginx/html/vendor/magento/module-ui/view/base/web/js/lib/core/class.js
+/Applications/MAMP/htdocs/magento2.loc/vendor/magento/module-ui/view/base/web/js/lib/core/class.js

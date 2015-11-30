@@ -6,11 +6,11 @@ return array (
   ),
   'install' => 
   array (
-    'date' => 'Fri, 27 Nov 2015 16:06:43 +0000',
+    'date' => 'Mon, 30 Nov 2015 15:37:13 +0000',
   ),
   'crypt' => 
   array (
-    'key' => 'd94c84e1767918bda91cc122043f5bd7',
+    'key' => '322fdabcbe1f334a1d34808f81fb4932',
   ),
   'session' => 
   array (
@@ -27,9 +27,6 @@ return array (
         'dbname' => 'magento2',
         'username' => 'root',
         'password' => 'root',
-        'model' => 'mysql4',
-        'engine' => 'innodb',
-        'initStatements' => 'SET NAMES utf8;',
         'active' => '1',
       ),
     ),

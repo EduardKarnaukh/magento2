@@ -1,1 +1,1 @@
-/usr/share/nginx/html/vendor/magento/theme-frontend-blank/web/js/theme.js
+/Applications/MAMP/htdocs/magento2.loc/vendor/magento/theme-frontend-blank/web/js/theme.js

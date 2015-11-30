@@ -1,1 +1,1 @@
-/usr/share/nginx/html/lib/web/knockoutjs/knockout.js
+/Applications/MAMP/htdocs/magento2.loc/lib/web/knockoutjs/knockout.js

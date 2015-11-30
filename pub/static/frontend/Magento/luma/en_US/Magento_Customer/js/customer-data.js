@@ -1,1 +1,1 @@
-/usr/share/nginx/html/vendor/magento/module-customer/view/frontend/web/js/customer-data.js
+/Applications/MAMP/htdocs/magento2.loc/vendor/magento/module-customer/view/frontend/web/js/customer-data.js

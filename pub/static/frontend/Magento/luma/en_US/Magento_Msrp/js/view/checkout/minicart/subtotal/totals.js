@@ -1,1 +1,1 @@
-/usr/share/nginx/html/vendor/magento/module-msrp/view/frontend/web/js/view/checkout/minicart/subtotal/totals.js
+/Applications/MAMP/htdocs/magento2.loc/vendor/magento/module-msrp/view/frontend/web/js/view/checkout/minicart/subtotal/totals.js

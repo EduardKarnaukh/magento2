@@ -1,1 +1,1 @@
-/usr/share/nginx/html/lib/web/mage/loader.js
+/Applications/MAMP/htdocs/magento2.loc/lib/web/mage/loader.js

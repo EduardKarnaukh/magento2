@@ -1,1 +1,1 @@
-/usr/share/nginx/html/lib/web/jquery/jquery-ui.js
+/Applications/MAMP/htdocs/magento2.loc/lib/web/jquery/jquery-ui.js

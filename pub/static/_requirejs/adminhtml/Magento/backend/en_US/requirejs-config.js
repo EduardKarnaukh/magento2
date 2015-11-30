@@ -1,5 +1,5 @@
 (function(require){
-require.config({"baseUrl":"http://107.170.20.120/static/adminhtml/Magento/backend/en_US"});
+require.config({"baseUrl":"http://magento2.loc/pub/static/adminhtml/Magento/backend/en_US"});
 (function() {
 /**
  * Copyright © 2015 Magento. All rights reserved.

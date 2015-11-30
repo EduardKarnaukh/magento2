@@ -1,1 +1,1 @@
-/usr/share/nginx/html/vendor/magento/module-page-cache/view/frontend/web/js/page-cache.js
+/Applications/MAMP/htdocs/magento2.loc/vendor/magento/module-page-cache/view/frontend/web/js/page-cache.js

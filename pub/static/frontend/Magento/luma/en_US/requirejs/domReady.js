@@ -1,1 +1,1 @@
-/usr/share/nginx/html/lib/web/requirejs/domReady.js
+/Applications/MAMP/htdocs/magento2.loc/lib/web/requirejs/domReady.js

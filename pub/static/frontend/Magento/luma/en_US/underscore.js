@@ -1,1 +1,1 @@
-/usr/share/nginx/html/lib/web/underscore.js
+/Applications/MAMP/htdocs/magento2.loc/lib/web/underscore.js

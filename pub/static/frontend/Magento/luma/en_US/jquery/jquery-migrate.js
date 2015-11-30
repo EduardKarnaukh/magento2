@@ -1,1 +1,1 @@
-/usr/share/nginx/html/lib/web/jquery/jquery-migrate.js
+/Applications/MAMP/htdocs/magento2.loc/lib/web/jquery/jquery-migrate.js

@@ -1,1 +1,1 @@
-/usr/share/nginx/html/lib/web/es6-collections.js
+/Applications/MAMP/htdocs/magento2.loc/lib/web/es6-collections.js

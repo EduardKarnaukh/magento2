@@ -1,1 +1,1 @@
-/usr/share/nginx/html/lib/web/mage/tabs.js
+/Applications/MAMP/htdocs/magento2.loc/lib/web/mage/tabs.js
