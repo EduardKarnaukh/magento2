@@ -1,0 +1,1 @@
+/usr/share/nginx/html/vendor/magento/module-ui/view/base/web/js/core/renderer/layout.js

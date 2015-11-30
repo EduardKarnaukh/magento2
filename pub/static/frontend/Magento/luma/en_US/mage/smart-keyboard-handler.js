@@ -1,0 +1,1 @@
+/usr/share/nginx/html/lib/web/mage/smart-keyboard-handler.js

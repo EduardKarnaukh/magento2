@@ -1,0 +1,1 @@
+/usr/share/nginx/html/vendor/magento/module-catalog/view/frontend/web/js/view/image.js

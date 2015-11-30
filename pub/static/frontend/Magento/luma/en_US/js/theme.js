@@ -1,0 +1,1 @@
+/usr/share/nginx/html/vendor/magento/theme-frontend-blank/web/js/theme.js

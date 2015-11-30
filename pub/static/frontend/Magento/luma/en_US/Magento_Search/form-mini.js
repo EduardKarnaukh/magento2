@@ -1,0 +1,1 @@
+/usr/share/nginx/html/vendor/magento/module-search/view/frontend/web/form-mini.js
