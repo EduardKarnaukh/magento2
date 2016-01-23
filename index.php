@@ -17,7 +17,7 @@
  * Copyright © 2015 Magento. All rights reserved.
  * See COPYING.txt for license details.
  */
-
+$_SERVER['MAGE_MODE'] = 'developer';
 try {
     require __DIR__ . '/app/bootstrap.php';
 } catch (\Exception $e) {
