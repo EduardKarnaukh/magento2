@@ -7,6 +7,54 @@ require.config({"baseUrl":"http://magento2.loc/pub/static/frontend/Sophiasstyle/
  */
 
 var config = {
+    map: {
+        "*": {
+            "rowBuilder":             "Magento_Theme/js/row-builder",
+            "toggleAdvanced":         "mage/toggle",
+            "translateInline":        "mage/translate-inline",
+            "sticky":                 "mage/sticky",
+            "tabs":                   "mage/tabs",
+            "zoom":                   "mage/zoom",
+            "collapsible":            "mage/collapsible",
+            "dropdownDialog":         "mage/dropdown",
+            "dropdown":               "mage/dropdowns",
+            "accordion":              "mage/accordion",
+            "loader":                 "mage/loader",
+            "tooltip":                "mage/tooltip",
+            "deletableItem":          "mage/deletable-item",
+            "itemTable":              "mage/item-table",
+            "fieldsetControls":       "mage/fieldset-controls",
+            "fieldsetResetControl":   "mage/fieldset-controls",
+            "redirectUrl":            "mage/redirect-url",
+            "loaderAjax":             "mage/loader",
+            "menu":                   "mage/menu",
+            "popupWindow":            "mage/popup-window",
+            "validation":             "mage/validation/validation",
+            "welcome":                "Magento_Theme/js/view/welcome"
+        }
+    },
+    paths: {
+        "jquery/ui": "jquery/jquery-ui"
+    },
+    deps: [
+        "jquery/jquery.mobile.custom",
+        "js/responsive",
+        "mage/common",
+        "mage/dataPost",
+        "js/theme",
+        "mage/bootstrap"
+    ]
+};
+
+require.config(config);
+})();
+(function() {
+/**
+ * Copyright © 2015 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+var config = {
     "waitSeconds": 0,
     "map": {
         "*": {
@@ -70,54 +118,6 @@ require.config(config);
 
 var config = {
     map: {
-        "*": {
-            "rowBuilder":             "Magento_Theme/js/row-builder",
-            "toggleAdvanced":         "mage/toggle",
-            "translateInline":        "mage/translate-inline",
-            "sticky":                 "mage/sticky",
-            "tabs":                   "mage/tabs",
-            "zoom":                   "mage/zoom",
-            "collapsible":            "mage/collapsible",
-            "dropdownDialog":         "mage/dropdown",
-            "dropdown":               "mage/dropdowns",
-            "accordion":              "mage/accordion",
-            "loader":                 "mage/loader",
-            "tooltip":                "mage/tooltip",
-            "deletableItem":          "mage/deletable-item",
-            "itemTable":              "mage/item-table",
-            "fieldsetControls":       "mage/fieldset-controls",
-            "fieldsetResetControl":   "mage/fieldset-controls",
-            "redirectUrl":            "mage/redirect-url",
-            "loaderAjax":             "mage/loader",
-            "menu":                   "mage/menu",
-            "popupWindow":            "mage/popup-window",
-            "validation":             "mage/validation/validation",
-            "welcome":                "Magento_Theme/js/view/welcome"
-        }
-    },
-    paths: {
-        "jquery/ui": "jquery/jquery-ui"
-    },
-    deps: [
-        "jquery/jquery.mobile.custom",
-        "js/responsive",
-        "mage/common",
-        "mage/dataPost",
-        "js/theme",
-        "mage/bootstrap"
-    ]
-};
-
-require.config(config);
-})();
-(function() {
-/**
- * Copyright © 2015 Magento. All rights reserved.
- * See COPYING.txt for license details.
- */
-
-var config = {
-    map: {
         '*': {
             checkoutBalance:    'Magento_Customer/js/checkout-balance',
             address:            'Magento_Customer/address',
@@ -153,6 +153,21 @@ var config = {
     }
 };
 
+require.config(config);
+})();
+(function() {
+/**
+ * Copyright © 2015 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+var config = {
+    map: {
+        '*': {
+            creditCardType: 'Magento_Payment/cc-type'
+        }
+    }
+};
 require.config(config);
 })();
 (function() {
@@ -262,7 +277,8 @@ require.config(config);
 var config = {
     map: {
         '*': {
-            creditCardType: 'Magento_Payment/cc-type'
+            giftMessage:    'Magento_Sales/gift-message',
+            ordersReturns:  'Magento_Sales/orders-returns'
         }
     }
 };
@@ -277,8 +293,8 @@ require.config(config);
 var config = {
     map: {
         '*': {
-            giftMessage:    'Magento_Sales/gift-message',
-            ordersReturns:  'Magento_Sales/orders-returns'
+            giftOptions:    'Magento_GiftMessage/gift-options',
+            extraOptions:   'Magento_GiftMessage/extra-options'
         }
     }
 };
@@ -522,22 +538,6 @@ var config = {
     map: {
         '*': {
             swatchRenderer: 'Magento_Swatches/js/SwatchRenderer'
-        }
-    }
-};
-require.config(config);
-})();
-(function() {
-/**
- * Copyright © 2015 Magento. All rights reserved.
- * See COPYING.txt for license details.
- */
-
-var config = {
-    map: {
-        '*': {
-            giftOptions:    'Magento_GiftMessage/gift-options',
-            extraOptions:   'Magento_GiftMessage/extra-options'
         }
     }
 };

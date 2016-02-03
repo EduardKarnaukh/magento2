@@ -1,83 +1,5 @@
 [
     {
-        "name": "magento/magento-composer-installer",
-        "version": "0.1.5",
-        "version_normalized": "0.1.5.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/magento/magento-composer-installer.git",
-            "reference": "1b33917bfc3f4a0856276dcbe46ce35362f50fc3"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/magento/magento-composer-installer/zipball/1b33917bfc3f4a0856276dcbe46ce35362f50fc3",
-            "reference": "1b33917bfc3f4a0856276dcbe46ce35362f50fc3",
-            "shasum": ""
-        },
-        "require": {
-            "composer-plugin-api": "^1.0"
-        },
-        "require-dev": {
-            "composer/composer": "*@dev",
-            "firegento/phpcs": "dev-patch-1",
-            "mikey179/vfsstream": "*",
-            "phpunit/phpunit": "*",
-            "phpunit/phpunit-mock-objects": "dev-master",
-            "squizlabs/php_codesniffer": "1.4.7",
-            "symfony/process": "*"
-        },
-        "time": "2015-09-14 19:59:55",
-        "type": "composer-plugin",
-        "extra": {
-            "composer-command-registry": [
-                "MagentoHackathon\\Composer\\Magento\\Command\\DeployCommand"
-            ],
-            "class": "MagentoHackathon\\Composer\\Magento\\Plugin"
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-0": {
-                "MagentoHackathon\\Composer\\Magento": "src/"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "OSL-3.0"
-        ],
-        "authors": [
-            {
-                "name": "Vinai Kopp",
-                "email": "vinai@netzarbeiter.com"
-            },
-            {
-                "name": "Daniel Fahlke aka Flyingmana",
-                "email": "flyingmana@googlemail.com"
-            },
-            {
-                "name": "Jörg Weller",
-                "email": "weller@flagbit.de"
-            },
-            {
-                "name": "Karl Spies",
-                "email": "karl.spies@gmx.net"
-            },
-            {
-                "name": "Tobias Vogt",
-                "email": "tobi@webguys.de"
-            },
-            {
-                "name": "David Fuhr",
-                "email": "fuhr@flagbit.de"
-            }
-        ],
-        "description": "Composer installer for Magento modules",
-        "homepage": "https://github.com/magento/magento-composer-installer",
-        "keywords": [
-            "composer-installer",
-            "magento"
-        ]
-    },
-    {
         "name": "magento/framework",
         "version": "100.0.2",
         "version_normalized": "100.0.2.0",
@@ -8065,57 +7987,6 @@
         ]
     },
     {
-        "name": "symfony/stopwatch",
-        "version": "v3.0.1",
-        "version_normalized": "3.0.1.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/symfony/stopwatch.git",
-            "reference": "6aeac8907e3e1340a0033b0a9ec075f8e6524800"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/symfony/stopwatch/zipball/6aeac8907e3e1340a0033b0a9ec075f8e6524800",
-            "reference": "6aeac8907e3e1340a0033b0a9ec075f8e6524800",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.5.9"
-        },
-        "time": "2015-10-30 23:35:59",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "3.0-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Symfony\\Component\\Stopwatch\\": ""
-            },
-            "exclude-from-classmap": [
-                "/Tests/"
-            ]
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Fabien Potencier",
-                "email": "fabien@symfony.com"
-            },
-            {
-                "name": "Symfony Community",
-                "homepage": "https://symfony.com/contributors"
-            }
-        ],
-        "description": "Symfony Stopwatch Component",
-        "homepage": "https://symfony.com"
-    },
-    {
         "name": "symfony/process",
         "version": "v2.8.2",
         "version_normalized": "2.8.2.0",
@@ -8215,57 +8086,6 @@
             }
         ],
         "description": "Symfony Finder Component",
-        "homepage": "https://symfony.com"
-    },
-    {
-        "name": "symfony/filesystem",
-        "version": "v3.0.1",
-        "version_normalized": "3.0.1.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/symfony/filesystem.git",
-            "reference": "c2e59d11dccd135dc8f00ee97f34fe1de842e70c"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/symfony/filesystem/zipball/c2e59d11dccd135dc8f00ee97f34fe1de842e70c",
-            "reference": "c2e59d11dccd135dc8f00ee97f34fe1de842e70c",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.5.9"
-        },
-        "time": "2015-12-22 10:39:06",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "3.0-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Symfony\\Component\\Filesystem\\": ""
-            },
-            "exclude-from-classmap": [
-                "/Tests/"
-            ]
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Fabien Potencier",
-                "email": "fabien@symfony.com"
-            },
-            {
-                "name": "Symfony Community",
-                "homepage": "https://symfony.com/contributors"
-            }
-        ],
-        "description": "Symfony Filesystem Component",
         "homepage": "https://symfony.com"
     },
     {
@@ -8447,74 +8267,6 @@
         "description": "A tool to automatically fix PHP code style"
     },
     {
-        "name": "justinrainbow/json-schema",
-        "version": "v1.6.0",
-        "version_normalized": "1.6.0.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/justinrainbow/json-schema.git",
-            "reference": "f9e27c3e202faf14fd581ef41355d83bb4b7eb7d"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/justinrainbow/json-schema/zipball/f9e27c3e202faf14fd581ef41355d83bb4b7eb7d",
-            "reference": "f9e27c3e202faf14fd581ef41355d83bb4b7eb7d",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.3.2"
-        },
-        "require-dev": {
-            "json-schema/json-schema-test-suite": "1.1.0",
-            "phpdocumentor/phpdocumentor": "~2",
-            "phpunit/phpunit": "~3.7"
-        },
-        "time": "2016-01-06 14:37:04",
-        "bin": [
-            "bin/validate-json"
-        ],
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "1.4.x-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "JsonSchema\\": "src/JsonSchema/"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "BSD-3-Clause"
-        ],
-        "authors": [
-            {
-                "name": "Bruno Prieto Reis",
-                "email": "bruno.p.reis@gmail.com"
-            },
-            {
-                "name": "Justin Rainbow",
-                "email": "justin.rainbow@gmail.com"
-            },
-            {
-                "name": "Igor Wiedler",
-                "email": "igor@wiedler.ch"
-            },
-            {
-                "name": "Robert Schönthal",
-                "email": "seroscho@googlemail.com"
-            }
-        ],
-        "description": "A library to validate a json schema.",
-        "homepage": "https://github.com/justinrainbow/json-schema",
-        "keywords": [
-            "json",
-            "schema"
-        ]
-    },
-    {
         "name": "sebastian/environment",
         "version": "1.3.3",
         "version_normalized": "1.3.3.0",
@@ -8618,119 +8370,6 @@
         "homepage": "https://symfony.com"
     },
     {
-        "name": "symfony/config",
-        "version": "v3.0.1",
-        "version_normalized": "3.0.1.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/symfony/config.git",
-            "reference": "58680a6516a457a6c65044fe33586c4a81fdff01"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/symfony/config/zipball/58680a6516a457a6c65044fe33586c4a81fdff01",
-            "reference": "58680a6516a457a6c65044fe33586c4a81fdff01",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.5.9",
-            "symfony/filesystem": "~2.8|~3.0"
-        },
-        "time": "2015-12-26 13:39:53",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "3.0-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Symfony\\Component\\Config\\": ""
-            },
-            "exclude-from-classmap": [
-                "/Tests/"
-            ]
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Fabien Potencier",
-                "email": "fabien@symfony.com"
-            },
-            {
-                "name": "Symfony Community",
-                "homepage": "https://symfony.com/contributors"
-            }
-        ],
-        "description": "Symfony Config Component",
-        "homepage": "https://symfony.com"
-    },
-    {
-        "name": "symfony/dependency-injection",
-        "version": "v3.0.1",
-        "version_normalized": "3.0.1.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/symfony/dependency-injection.git",
-            "reference": "1256a2e57879ae561278c306d47977d1f73387b8"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/1256a2e57879ae561278c306d47977d1f73387b8",
-            "reference": "1256a2e57879ae561278c306d47977d1f73387b8",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.5.9"
-        },
-        "require-dev": {
-            "symfony/config": "~2.8|~3.0",
-            "symfony/expression-language": "~2.8|~3.0",
-            "symfony/yaml": "~2.8|~3.0"
-        },
-        "suggest": {
-            "symfony/config": "",
-            "symfony/proxy-manager-bridge": "Generate service proxies to lazy load them",
-            "symfony/yaml": ""
-        },
-        "time": "2015-12-26 13:39:53",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "3.0-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Symfony\\Component\\DependencyInjection\\": ""
-            },
-            "exclude-from-classmap": [
-                "/Tests/"
-            ]
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Fabien Potencier",
-                "email": "fabien@symfony.com"
-            },
-            {
-                "name": "Symfony Community",
-                "homepage": "https://symfony.com/contributors"
-            }
-        ],
-        "description": "Symfony DependencyInjection Component",
-        "homepage": "https://symfony.com"
-    },
-    {
         "name": "sebastian/recursion-context",
         "version": "1.0.2",
         "version_normalized": "1.0.2.0",
@@ -8784,5 +8423,366 @@
         ],
         "description": "Provides functionality to recursively process PHP variables",
         "homepage": "http://www.github.com/sebastianbergmann/recursion-context"
+    },
+    {
+        "name": "magento/magento-composer-installer",
+        "version": "0.1.6",
+        "version_normalized": "0.1.6.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/magento/magento-composer-installer.git",
+            "reference": "5b5d29ebe060bc6754c2999206923489db8ca641"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/magento/magento-composer-installer/zipball/5b5d29ebe060bc6754c2999206923489db8ca641",
+            "reference": "5b5d29ebe060bc6754c2999206923489db8ca641",
+            "shasum": ""
+        },
+        "require": {
+            "composer-plugin-api": "^1.0"
+        },
+        "require-dev": {
+            "composer/composer": "*@dev",
+            "firegento/phpcs": "dev-patch-1",
+            "mikey179/vfsstream": "*",
+            "phpunit/phpunit": "*",
+            "phpunit/phpunit-mock-objects": "dev-master",
+            "squizlabs/php_codesniffer": "1.4.7",
+            "symfony/process": "*"
+        },
+        "time": "2016-01-25 22:04:43",
+        "type": "composer-plugin",
+        "extra": {
+            "composer-command-registry": [
+                "MagentoHackathon\\Composer\\Magento\\Command\\DeployCommand"
+            ],
+            "class": "MagentoHackathon\\Composer\\Magento\\Plugin"
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "MagentoHackathon\\Composer\\Magento": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "OSL-3.0"
+        ],
+        "authors": [
+            {
+                "name": "Vinai Kopp",
+                "email": "vinai@netzarbeiter.com"
+            },
+            {
+                "name": "Daniel Fahlke aka Flyingmana",
+                "email": "flyingmana@googlemail.com"
+            },
+            {
+                "name": "Jörg Weller",
+                "email": "weller@flagbit.de"
+            },
+            {
+                "name": "Karl Spies",
+                "email": "karl.spies@gmx.net"
+            },
+            {
+                "name": "Tobias Vogt",
+                "email": "tobi@webguys.de"
+            },
+            {
+                "name": "David Fuhr",
+                "email": "fuhr@flagbit.de"
+            }
+        ],
+        "description": "Composer installer for Magento modules",
+        "homepage": "https://github.com/magento/magento-composer-installer",
+        "keywords": [
+            "composer-installer",
+            "magento"
+        ]
+    },
+    {
+        "name": "justinrainbow/json-schema",
+        "version": "1.6.1",
+        "version_normalized": "1.6.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/justinrainbow/json-schema.git",
+            "reference": "cc84765fb7317f6b07bd8ac78364747f95b86341"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/justinrainbow/json-schema/zipball/cc84765fb7317f6b07bd8ac78364747f95b86341",
+            "reference": "cc84765fb7317f6b07bd8ac78364747f95b86341",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.29"
+        },
+        "require-dev": {
+            "json-schema/json-schema-test-suite": "1.1.0",
+            "phpdocumentor/phpdocumentor": "~2",
+            "phpunit/phpunit": "~3.7"
+        },
+        "time": "2016-01-25 15:43:01",
+        "bin": [
+            "bin/validate-json"
+        ],
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.6.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "JsonSchema\\": "src/JsonSchema/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Bruno Prieto Reis",
+                "email": "bruno.p.reis@gmail.com"
+            },
+            {
+                "name": "Justin Rainbow",
+                "email": "justin.rainbow@gmail.com"
+            },
+            {
+                "name": "Igor Wiedler",
+                "email": "igor@wiedler.ch"
+            },
+            {
+                "name": "Robert Schönthal",
+                "email": "seroscho@googlemail.com"
+            }
+        ],
+        "description": "A library to validate a json schema.",
+        "homepage": "https://github.com/justinrainbow/json-schema",
+        "keywords": [
+            "json",
+            "schema"
+        ]
+    },
+    {
+        "name": "symfony/filesystem",
+        "version": "v3.0.2",
+        "version_normalized": "3.0.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/filesystem.git",
+            "reference": "064ac12afd2ceb8a2c1bfb7bed8e931c6dd1997f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/filesystem/zipball/064ac12afd2ceb8a2c1bfb7bed8e931c6dd1997f",
+            "reference": "064ac12afd2ceb8a2c1bfb7bed8e931c6dd1997f",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5.9"
+        },
+        "time": "2016-01-27 11:34:55",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\Filesystem\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony Filesystem Component",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "symfony/config",
+        "version": "v3.0.2",
+        "version_normalized": "3.0.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/config.git",
+            "reference": "8c83ff9a2ffbed1e606bc816db11ddc2385a16ee"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/config/zipball/8c83ff9a2ffbed1e606bc816db11ddc2385a16ee",
+            "reference": "8c83ff9a2ffbed1e606bc816db11ddc2385a16ee",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5.9",
+            "symfony/filesystem": "~2.8|~3.0"
+        },
+        "time": "2016-01-21 09:38:31",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\Config\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony Config Component",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "symfony/dependency-injection",
+        "version": "v3.0.2",
+        "version_normalized": "3.0.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/dependency-injection.git",
+            "reference": "7f2ec173cc0366efa0ca1f6b1255803ed7c17028"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/7f2ec173cc0366efa0ca1f6b1255803ed7c17028",
+            "reference": "7f2ec173cc0366efa0ca1f6b1255803ed7c17028",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5.9"
+        },
+        "require-dev": {
+            "symfony/config": "~2.8|~3.0",
+            "symfony/expression-language": "~2.8|~3.0",
+            "symfony/yaml": "~2.8|~3.0"
+        },
+        "suggest": {
+            "symfony/config": "",
+            "symfony/proxy-manager-bridge": "Generate service proxies to lazy load them",
+            "symfony/yaml": ""
+        },
+        "time": "2016-02-02 13:48:39",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\DependencyInjection\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony DependencyInjection Component",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "symfony/stopwatch",
+        "version": "v3.0.2",
+        "version_normalized": "3.0.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/stopwatch.git",
+            "reference": "4a204804952ff267ace88cf499e0b4bb302a475e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/stopwatch/zipball/4a204804952ff267ace88cf499e0b4bb302a475e",
+            "reference": "4a204804952ff267ace88cf499e0b4bb302a475e",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5.9"
+        },
+        "time": "2016-01-03 15:35:16",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\Stopwatch\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony Stopwatch Component",
+        "homepage": "https://symfony.com"
     }
 ]

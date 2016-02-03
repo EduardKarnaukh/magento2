@@ -7,6 +7,22 @@ require.config({"baseUrl":"http://magento2.loc/pub/static/adminhtml/Magento/back
  */
 
 var config = {
+    map: {
+        '*': {
+            systemMessageDialog: 'Magento_AdminNotification/system/notification',
+            toolbarEntry:   'Magento_AdminNotification/toolbar_entry'
+        }
+    }
+};
+require.config(config);
+})();
+(function() {
+/**
+ * Copyright © 2015 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+var config = {
     "waitSeconds": 0,
     "map": {
         "*": {
@@ -156,22 +172,6 @@ require.config(config);
 var config = {
     map: {
         '*': {
-            systemMessageDialog: 'Magento_AdminNotification/system/notification',
-            toolbarEntry:   'Magento_AdminNotification/toolbar_entry'
-        }
-    }
-};
-require.config(config);
-})();
-(function() {
-/**
- * Copyright © 2015 Magento. All rights reserved.
- * See COPYING.txt for license details.
- */
-
-var config = {
-    map: {
-        '*': {
             folderTree: 'Magento_Cms/js/folder-tree'
         }
     }
@@ -225,9 +225,9 @@ require.config(config);
 var config = {
     map: {
         '*': {
-            rolesTree: 'Magento_User/js/roles-tree'
+            orderEditDialog: 'Magento_Sales/order/edit/message'
         }
-    } 
+    }
 };
 require.config(config);
 })();
@@ -240,9 +240,9 @@ require.config(config);
 var config = {
     map: {
         '*': {
-            orderEditDialog: 'Magento_Sales/order/edit/message'
+            rolesTree: 'Magento_User/js/roles-tree'
         }
-    }
+    } 
 };
 require.config(config);
 })();
